@@ -1,0 +1,1 @@
+{"version":3,"file":"cats.providers.js","sourceRoot":"","sources":["../../src/cats/cats.providers.ts"],"names":[],"mappings":";;;AACA,oDAAgD;AAEnC,QAAA,aAAa,GAAG;IAC3B;QACE,OAAO,EAAE,iBAAiB;QAC1B,UAAU,EAAE,CAAC,UAAsB,EAAE,EAAE,CAAC,UAAU,CAAC,aAAa,CAAC,sBAAS,CAAC;QAC3E,MAAM,EAAE,CAAC,aAAa,CAAC;KACxB;CACF,CAAC"}

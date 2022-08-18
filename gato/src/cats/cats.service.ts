@@ -14,7 +14,7 @@ export class CatsService {
 
 
     async create (cat: CreateCat){
-    this.catsRepository.create(cat)
+    this.catsRepository.save(cat)
     }
     async findAll():Promise<CreateCat[]>{
         return this.catsRepository.find()

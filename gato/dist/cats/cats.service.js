@@ -23,7 +23,7 @@ let CatsService = class CatsService {
         return 'Hello World!';
     }
     async create(cat) {
-        this.catsRepository.create(cat);
+        this.catsRepository.save(cat);
     }
     async findAll() {
         return this.catsRepository.find();

@@ -10,7 +10,7 @@ export class CatsController {
   getHello(): string {
     return this.catsService.getHello();
   }
-  @Post('createCat')
+  @Post('create')
    async createCat(@Body() createCat : CreateCat){
     this.catsService.create(createCat)
    }
